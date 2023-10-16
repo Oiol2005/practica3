@@ -1,0 +1,32 @@
+/*1. color general de la lletra negra*/
+body{
+    color: black;
+}
+
+/*2. titol nivell 1 fons blanc lletra gris*/
+#titol-pagina{
+    background-color: white;
+    color: gray;
+}
+
+/*3. tots els strong en color verd i subratllats*/
+.paragraf1 strong, .paragraf2 strong{
+    color: green;
+    text-decoration: underline;
+}
+
+
+/*4. enllaços del paràgraf2 en italica*/
+.paragraf2 > a{
+    font-style: italic;
+}
+
+/*5. footer general del web centrat i lletra de 10px*/
+footer{
+    text-align: center;
+    font-size: 10px;
+}
+
+/*6. Canvia l'ordre de càrrega dels fitxers i mira què passa. Sabries modificar el teu codi per a que se seguís veient igual que abans de canviar l'ordre?*/
+/*a. Las cosas que coinciden con el css de estils_inicials tendrian prioridad en el archivo estils_inicials ya que va en cascada.*/
+/*b. Una manera simple de que es continues veient tal i com esta al principi seria posant un !important a totes les etiquietes,id etc... del css
