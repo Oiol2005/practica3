@@ -29,4 +29,4 @@ footer{
 
 /*6. Canvia l'ordre de càrrega dels fitxers i mira què passa. Sabries modificar el teu codi per a que se seguís veient igual que abans de canviar l'ordre?*/
 /*a. Las cosas que coinciden con el css de estils_inicials tendrian prioridad en el archivo estils_inicials ya que va en cascada.*/
-/*b. Una manera simple de que es continues veient tal i com esta al principi seria posant un !important a totes les etiquietes,id etc... del css
+/*b. Una manera simple de que es continues veient tal i com esta al principi seria posant un identificador en el css que volem que tingui prioritat.
